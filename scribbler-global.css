@@ -196,7 +196,9 @@ hr {
 
 img {
   height: 100px;
-  margin-right: 20px;
+  max-width: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* links */

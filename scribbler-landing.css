@@ -143,6 +143,7 @@ nav {
   margin: 5px 0;
   padding: 0 5px;
   justify-content: center;
+  align-content: center;
 }
 
 .changelog__meta {
