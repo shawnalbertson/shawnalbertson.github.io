@@ -12,15 +12,13 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `mechanical engineer
-            [B.S. from Olin College in May 2021]
+  var txt = `B.S. Mechanical Engineering '21
 
             ### skills
             - design
             - computer modeling
-            - machine & prototyping
-            - embracing unexpected challenges`;
-  var speed = 60;
+            - machine & prototyping`;
+  var speed = 30;
 
   function typeItOut () {
     if (i < txt.length) {

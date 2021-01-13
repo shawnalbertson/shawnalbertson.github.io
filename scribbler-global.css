@@ -24,6 +24,7 @@ html, body {
 p {
   font-weight: 300;
   color: #4A4A4A;
+  margin-left: 5%;
 }
 
 a, a:hover {
@@ -46,6 +47,8 @@ hr {
 /* typography */
 .section__title {
   color: var(--primary-color);
+  font-weight: 900;
+  /* margin-left: -5%; */
 }
 
 /* tabs */
@@ -108,6 +111,11 @@ hr {
 }
 
 /* buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .button--primary {
   padding: 10px 22px;
   background-color: var(--accent-color);
@@ -116,6 +124,7 @@ hr {
   text-decoration: none;
   border: 0;
   transition: all .3s ease-out;
+  margin: 20px
 }
 
 .button--primary:after {

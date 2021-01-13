@@ -17,23 +17,26 @@ nav {
 }
 
 .hero__title {
+  text-align: center;
   font-weight: 900;
   color: var(--primary-color);
 }
 
 .hero__description {
+  text-align: left;
+  width: 60%;
   margin: -1rem auto 2rem auto;
 }
 
 .hero__terminal {
   width: 60%;
-  margin: -11rem auto 3rem auto;
+  margin: -12rem auto .5rem auto;
   text-align: left;
   color: white;
   padding: 0 1rem;
   border-radius: 4px;
   background-color: #232323;
-  min-height: 285px;
+  min-height: 200px;
   animation: fadeUp 2s;
   box-shadow: 0px 12px 36.8px 9.2px rgba(0, 0, 0, 0.1);
 }
@@ -47,11 +50,14 @@ nav {
 .feature {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .feature__item {
   max-width: calc(33% - 20px);
-  margin: 0 20px 0 0;
+  margin: 7px 7px;
+  background-color: var(--accent-color-light);
+  border-radius: 1em;
 }
 
 .feature__item .section__title {
@@ -128,12 +134,15 @@ nav {
 
 /* changelog section */
 .changelog {
-  background-color: var(--bg-color);
-  padding: 2rem 0;
+  /* background-color: var(--white-color); */
 }
 
 .changelog__item {
   display: flex;
+  /* background-color: var(--primary-color-light); */
+  border-radius: 30px;
+  margin: 5px 0;
+  padding: 0 5px;
 }
 
 .changelog__meta {
@@ -148,6 +157,12 @@ nav {
 
 .changelog__title {
   margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+.changelog__detail {
+  color: var(--primary-color);
+  flex: 0 0 70%;
 }
 
 .changelog__callout {
