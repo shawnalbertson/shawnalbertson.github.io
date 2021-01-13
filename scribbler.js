@@ -14,10 +14,12 @@ if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `B.S. Mechanical Engineering '21
 
-            ### skills
-            - design
-            - computer modeling
-            - machine & prototyping`;
+            # skills
+
+            ### design
+            ### computer modeling
+            ### prototyping & machining`;
+
   var speed = 30;
 
   function typeItOut () {

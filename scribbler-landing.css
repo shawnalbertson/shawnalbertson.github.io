@@ -1,6 +1,6 @@
 /* nav specialized to landing page */
 .logo {
-  background: url('sa.png') no-repeat;
+  background: url('images/sa.png') no-repeat;
   background-size: contain;
   margin: 1rem 0 0 1rem;
 }
@@ -139,10 +139,10 @@ nav {
 
 .changelog__item {
   display: flex;
-  /* background-color: var(--primary-color-light); */
   border-radius: 30px;
   margin: 5px 0;
   padding: 0 5px;
+  justify-content: center;
 }
 
 .changelog__meta {
