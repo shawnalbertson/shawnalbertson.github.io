@@ -159,6 +159,20 @@ hr {
   color: var(--accent-color);
 }
 
+.button--project {
+  display: block;
+  padding: 10px 22px;
+  background-color: #fff;
+  transition: all 1s ease-out;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.button--project:hover {
+  background-color: var(--accent-color-light);
+  color: var(--accent-color);
+}
+
 /* links */
 .link {
   text-decoration: none;
