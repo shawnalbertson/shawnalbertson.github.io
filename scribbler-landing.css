@@ -133,9 +133,9 @@ nav {
 }
 
 /* changelog section */
-.changelog {
-  /* background-color: var(--white-color); */
-}
+/* .changelog {
+  background-color: var(--white-color);
+} */
 
 .changelog__item {
   display: flex;

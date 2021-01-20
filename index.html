@@ -1,47 +1,290 @@
 <!doctype html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Shawn Albertson</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
-      <link rel="stylesheet" href="scribbler-global.css">
-      <link rel="stylesheet" href="scribbler-landing.css">
-      <link rel="author" href="humans.txt">
-  </head>
-  <body>
-    <nav>
-      <div class="logo"></div>
-      <ul class="menu">
-        <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Projects</a></li>
-        <li class="menu__item"><a href="http://github.com/shawnalbertson" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
-      <h1 class="hero__title">Shawn Albertson</h1>
-      <p class="hero__description">I am a well rounded mechanical engineer and a passionate learner, and I view every challenge as an opportunity to grow. I love to get my hands dirty, and thrive in environments that demand the most from me.</p>
-    </div>
-    <div class="hero__terminal">
-      <pre>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shawn Albertson</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+  <link rel="stylesheet" href="scribbler-global.css">
+  <link rel="stylesheet" href="scribbler-landing.css">
+  <link rel="author" href="humans.txt">
+</head>
+
+<body>
+  <nav>
+    <div class="logo"></div>
+    <ul class="menu">
+      <div class="menu__item toggle"><span></span></div>
+      <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Projects</a></li>
+      <li class="menu__item"><a href="http://github.com/shawnalbertson" class="link link--dark"><i
+            class="fa fa-github"></i> Github</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1 class="hero__title">Shawn Albertson</h1>
+    <p class="hero__description">I am a well rounded mechanical engineer and a passionate learner, and I view every
+      challenge as an opportunity to grow. I love to get my hands dirty, and thrive in environments that demand the most
+      from me.</p>
+  </div>
+  <div class="hero__terminal">
+    <pre>
         <!-- Place your demo code here -->
         <code class="shell-session demo">olin-college ~ $ </code>
       </pre>
-    </div>
+  </div>
 
-    <div class="wrapper">
-      <div class="buttons">
-        <a href="https://github.com/shawnalbertson" class="button--primary">Resume</a>
-        <a href="https://github.com/shawnalbertson" class="button--primary">Github</a>
-        <a href="https://www.linkedin.com/in/shawnalbertson16" class="button--primary">Linkedin</a>
-      </div> 
+  <div class="wrapper">
+    <div class="buttons">
+      <a href="https://github.com/shawnalbertson" class="button--primary">Resume</a>
+      <a href="https://github.com/shawnalbertson" class="button--primary">Github</a>
+      <a href="https://www.linkedin.com/in/shawnalbertson16" class="button--primary">Linkedin</a>
     </div>
+  </div>
 
-  
-    <!-- <div class="wrapper">
+
+
+  <aside class="doc__nav">
+    <ul>
+      <li class="js-btn">Technical Experience</li>
+      <li class="js-btn">Projects</li>
+      <li class="js-btn">Additional Experience</li>
+      <li class="js-btn">About</li>
+    </ul>
+  </aside>
+
+  <article class="doc__content">
+    <div class="changelog">
+
+      <!-- **************** -->
+      <!-- TECH EXP SECTION -->
+      <!-- *************** -->
+      <section class="js-section">
+        <div class="wrapper">
+          <div class="section__title__container">
+            <h3 class="section__title">Technical Experience</h3>
+          </div>
+
+          <!-- GEHC/ SCOPE -->
+          <a href="gehc.html" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Vibration Testing</h4>
+                <small class="changelog__date">Fall 2020 - Present</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Working to improve patient communication systems in biomedical devices</li>
+                  <li>Developed mechatronic vibration testing platform to evaluate existing systems and proposed
+                    alterations</li>
+                </ul>
+              </div>
+              <img src="images/thumbnails/gehc.png" alt="gehc">
+            </div>
+          </a>
+
+          <!-- RO Research -->
+          <a href="https://shawnalbertson.wordpress.com/2020/02/15/ro-research/" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Desalination Research</h4>
+                <small class="changelog__date">Summer 2019</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Designed and validated lab scale reverse osmosis desalination system</li>
+                  <li>Optimized pressure vessel to contain salt water at 1000 psi</li>
+                  <li>Spearheaded precision milling of 316 stainless steel</li>
+                  <li>Implemented data collection system to gather data continuously</li>
+                </ul>
+              </div>
+              <img src="images/flow_cell_square.png" alt="flow cell">
+            </div>
+          </a>
+
+          <!-- BAJA -->
+          <a href="https://shawnalbertson.wordpress.com/2020/02/16/baja/" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Olin BAJA SAE</h4>
+                <small class="changelog__date">Fall 2017 - Fall 2019</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Improved vehicle durability and reduced weight by developing a carbon fiber seat</li>
+                  <li>Ensured vehicle was within SAE specification by designing and manufacturing body panels and splash
+                    guard</li>
+                  <li>Promoted driver experience by developing test track features and overseeing team drive days</li>
+                </ul>
+              </div>
+              <img src="images/thumbnails/baja.png" alt="baja">
+            </div>
+          </a>
+
+          <!-- PUPPE -->
+          <a href="https://midcoastpuppe.wordpress.com/" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Midcoast Pop-Up PPE Factory</h4>
+                <small class="changelog__date">Spring 2020</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Produced more than 5,000 face covers through acquisition and operation of a laser cutter</li>
+                  <li>Streamlined production processes and volunteer coordination to ensure high volume and quality
+                    output</li>
+                </ul>
+              </div>
+              <img src="images/thumbnails/puppe_small.png" alt="puppe">
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- ************ -->
+      <!-- END TECH EXP -->
+      <!-- ************ -->
+
+
+      <!-- ******** -->
+      <!-- PROJECTS -->
+      <!-- ******** -->
+      <section class="js-section">
+        <div class="wrapper">
+          <div class="section__title__container">
+            <h3 class="section__title">Projects</h3>
+          </div>
+
+          <!-- Fluid Modeling -->
+          <a href="https://shawnalbertson.github.io" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Fluid Modeling</h4>
+                <small class="changelog__date">Fall 2019</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Visualized velocity and position profile of fluid flow in entrance region, verified model with
+                    physical test setup</li>
+                </ul>
+              </div>
+            </div>
+          </a>
+
+          <!-- Damper -->
+          <a href="https://shawnalbertson.github.io" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Suspension Damper Simulation</h4>
+                <small class="changelog__date">Fall 2019</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Investigated damping effects of shim configurations using coupled fluid and structural analyses
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+
+          <!-- Linkages -->
+          <a href="https://shawnalbertson.github.io" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Analysis of Forces in Four-Bar Linkages </h4>
+                <small class="changelog__date">Fall 2018</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Applied understanding of linkages to model resulting forces in the context of bicycle suspension
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://shawnalbertson.github.io" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">GIS Visualization</h4>
+                <small class="changelog__date">Spring 2020</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Command line tool to visualize GeoTIFF files representing ocean temperature and salinity</li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- ************ -->
+      <!-- END PROJECTS -->
+      <!-- ************ -->
+
+
+      <!-- ************** -->
+      <!-- ADDITIONAL EXP -->
+      <!-- ************** -->
+      <section class="js-section">
+        <div class="wrapper">
+          <div class="section__title__container">
+            <h3 class="section__title">Additional Experience</h3>
+          </div>
+
+          <!-- Fishing -->
+          <a href="shawnalbertson.github.io" class="button--project">
+            <div class="changelog__item">
+              <div class="changelog__meta">
+                <h4 class="changelog__title">Commercial Fishing</h4>
+                <small class="changelog__date">Summer 2020</small>
+              </div>
+              <div class="changelog__detail">
+                <ul>
+                  <li>Hauled gear for 14 hours a day in the world’s most sustainable fishery</li>
+                </ul>
+              </div>
+              <img src="images/thumbnails/gehc.png" alt="gehc">
+            </div>
+          </a>
+
+        </div>
+      </section>
+      <!-- *********** -->
+      <!-- END ADD EXP -->
+      <!-- *********** -->
+
+      <!-- ***** -->
+      <!-- ABOUT -->
+      <!-- ***** -->
+      <section class="js-section">
+        <div class="wrapper">
+          <div class="section__title__container">
+            <h3 class="section__title">About Me</h3>
+          </div>
+        </div>
+      </section>
+      <!-- ******************* -->
+      <!-- END ABOUT ME SECTION -->
+      <!-- ******************* -->
+
+    </div>
+  </article>
+
+  <footer class="footer">This lovely HTML template is made by <a href="http://amie-chen.com" target="_blank"
+      class="link link--light">Amie Chen</a>.</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="scribbler.js"></script>
+</body>
+
+</html>
+
+
+
+  <!-- <div class="wrapper">
       <div class="installation">
         <h3 class="section__title">Installation</h3>
         <div class="tab__container">
@@ -105,182 +348,3 @@
         <a href="doc.html" class="button--primary">Documentation</a>
       </div>
     </div> -->
-    
-    <aside class="doc__nav">
-      <ul>
-          <li class="js-btn selected">Overview </li>
-          <li class="js-btn">Process</li>
-      </ul>
-    </aside>
-
-    <article class="doc__content">
-    <div class="changelog">
-
-<!-- **************** -->
-<!-- TECH EXP SECTION -->
-<!-- *************** -->
-      <section class="js-section">
-      <div class="wrapper">
-        <div class="section__title__container">
-          <h3 class="section__title">Technical Experience</h3>
-        </div>
-
-<!-- GEHC/ SCOPE -->
-        <a href="gehc.html" class="button--project">
-          <div class="changelog__item">
-            <div class="changelog__meta">
-              <h4 class="changelog__title">Vibration Testing</h4>
-              <small class="changelog__date">Fall 2020 - Present</small>
-            </div>
-            <div class="changelog__detail">
-              <ul>
-                <li>Working to improve patient communication systems in biomedical devices</li>
-                <li>Developed mechatronic vibration testing platform to evaluate existing systems and proposed alterations</li>
-              </ul>
-            </div>
-            <img src="images/thumbnails/gehc.png" alt="gehc">
-          </div>
-        </a>
-
-<!-- RO Research -->
-        <a href="https://shawnalbertson.wordpress.com/2020/02/15/ro-research/" class="button--project">
-          <div class="changelog__item">
-            <div class="changelog__meta">
-              <h4 class="changelog__title">Desalination Research</h4>
-              <small class="changelog__date">Summer 2019</small>
-            </div>
-            <div class="changelog__detail">
-              <ul>
-                <li>Designed and validated lab scale reverse osmosis desalination system</li>
-                <li>Optimized pressure vessel to contain salt water at 1000 psi</li>
-                <li>Spearheaded precision milling of 316 stainless steel</li>
-                <li>Implemented data collection system to gather data continuously</li>
-              </ul>
-            </div>
-            <img src="images/flow_cell_square.png" alt="flow cell">
-          </div>
-        </a>
-
-<!-- BAJA -->
-        <a href="https://shawnalbertson.wordpress.com/2020/02/16/baja/" class="button--project">
-          <div class="changelog__item">
-            <div class="changelog__meta">
-              <h4 class="changelog__title">Olin BAJA SAE</h4>
-              <small class="changelog__date">Fall 2017 - Fall 2019</small>
-            </div>
-            <div class="changelog__detail">
-              <ul>
-                <li>Improved vehicle durability and reduced weight by developing a carbon fiber seat</li>
-                <li>Ensured vehicle was within SAE specification by designing and manufacturing body panels and splash guard</li>
-                <li>Promoted driver experience by developing test track features and overseeing team drive days</li>
-              </ul>
-            </div>
-            <img src="images/thumbnails/baja.png" alt="baja">
-          </div>
-        </a>
-
-<!-- PUPPE -->
-        <a href="https://midcoastpuppe.wordpress.com/" class="button--project">
-          <div class="changelog__item">
-            <div class="changelog__meta">
-              <h4 class="changelog__title">Midcoast Pop-Up PPE Factory</h4>
-              <small class="changelog__date">Spring 2020</small>
-            </div>
-            <div class="changelog__detail">
-              <ul>
-                <li>Produced more than 5,000 face covers through acquisition and operation of a laser cutter</li>
-                <li>Streamlined production processes and volunteer coordination to ensure high volume and quality output</li>
-              </ul>
-            </div>
-            <img src="images/thumbnails/puppe_small.png" alt="puppe">
-          </div>
-        </a>
-      </div>
-    </section>
-<!-- ******************** -->
-<!-- END TECH EXP SECTION -->
-<!-- ******************** -->
-
-
-<!-- *************** -->
-<!-- PROJECT SECTION -->
-<!-- *************** -->
-      <section class="js-section">
-      <div class="wrapper">
-      <div class="section__title__container">
-        <h3 class="section__title">Projects</h3>
-      </div>
-
-<!-- Fluid Modeling -->
-      <a href="https://shawnalbertson.github.io" class="button--project">
-        <div class="changelog__item">
-          <div class="changelog__meta">
-            <h4 class="changelog__title">Fluid Modeling</h4>
-            <small class="changelog__date">Fall 2019</small>
-          </div>
-          <div class="changelog__detail">
-            <ul>
-              <li>Visualized velocity and position profile of fluid flow in entrance region, verified model with physical test setup</li>
-            </ul>
-          </div>
-        </div>
-      </a>
-
-<!-- Damper -->
-      <a href="https://shawnalbertson.github.io" class="button--project">
-        <div class="changelog__item">
-          <div class="changelog__meta">
-            <h4 class="changelog__title">Suspension Damper Simulation</h4>
-            <small class="changelog__date">Fall 2019</small>
-          </div>
-          <div class="changelog__detail">
-            <ul>
-              <li>Investigated damping effects of shim configurations using coupled fluid and structural analyses</li>
-            </ul>
-          </div>
-        </div>
-      </a>
-
-<!-- Linkages -->
-      <a href="https://shawnalbertson.github.io" class="button--project">
-        <div class="changelog__item">
-          <div class="changelog__meta">
-            <h4 class="changelog__title">Analysis of Forces in Four-Bar Linkages </h4>
-            <small class="changelog__date">Fall 2018</small>
-          </div>
-          <div class="changelog__detail">
-            <ul>
-              <li>Applied understanding of linkages to model resulting forces in the context of bicycle suspension</li>
-            </ul>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://shawnalbertson.github.io" class="button--project">
-        <div class="changelog__item">
-          <div class="changelog__meta">
-            <h4 class="changelog__title">GIS Visualization</h4>
-            <small class="changelog__date">Spring 2020</small>
-          </div>
-          <div class="changelog__detail">
-            <ul>
-              <li>Command line tool to visualize GeoTIFF files representing ocean temperature and salinity</li>
-            </ul>
-          </div>
-        </div>
-      </a>        
-      </div>
-    </section>
-<!-- ******************* -->
-<!-- END PROJECT SECTION -->
-<!-- ******************* -->
-
-    </div> 
-    </article>
-
-    <footer class="footer">This lovely HTML template is made by <a href="http://amie-chen.com" target="_blank" class="link link--light">Amie Chen</a>.</footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="scribbler.js"></script>
-  </body>
-</html>
