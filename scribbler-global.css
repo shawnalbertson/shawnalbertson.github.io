@@ -201,11 +201,15 @@ hr {
   margin-bottom: 10px;
 }
 
-img {
+.thumb {
   height: 100px;
   max-width: 100px;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.head {
+  height: 250px;
 }
 
 /* doc */
